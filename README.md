@@ -28,7 +28,7 @@ Contains the following methods:
 * `float order(Pizza pizza)` – calculates price of pizza
 * `float getTotalSales()` – calculates the price of total sales made until now.
 ```java
-Public static void main(String args[]) throws InvalidPizzaException{  
+public static void main(String args[]) throws InvalidPizzaException{  
     PizzaOnline po = new PizzaOnline();  
     VegPizza vp1 = new VegPizza(9, "PLAIN");  
     NonVegPizza nvp1 = new NonVegPizza(12, "DELUXE");  
