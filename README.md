@@ -43,19 +43,19 @@ variable totalSales.
 Contains the following methods:
 * float order(Pizza pizza) – calculates price of pizza
 * float getTotalSales() – calculates the price of total sales made until now.
-
-`Public static void main(String args[]) throws InvalidPizzaException{  
-  PizzaOnline po = new PizzaOnline();  
-  VegPizza vp1 = new VegPizza(9, "PLAIN");  
-  NonVegPizza nvp1 = new NonVegPizza(12, "DELUXE");  
-  VegPizza vp2 = new VegPizza(6,"SUPREME");  
-  //to test exception  
-  //VegPizza vp3 = new VegPizza(12, "NORMAL");  
-  Float price=po.order(vp1);  
-  System.out.println(price);  
-  Price=po.order(nvp1);  
-  System.out.println(price);  
-  Price=po.order(vp2);  
-  System.out.println(price);  
-  System.out.println(po.getTotalSales());  
-}`  
+`
+Public static void main(String args[]) throws InvalidPizzaException{<br />
+  PizzaOnline po = new PizzaOnline();  <br />
+  VegPizza vp1 = new VegPizza(9, "PLAIN");  <br />
+  NonVegPizza nvp1 = new NonVegPizza(12, "DELUXE"); <br /> 
+  VegPizza vp2 = new VegPizza(6,"SUPREME");  <br />
+  //to test exception  <br />
+  //VegPizza vp3 = new VegPizza(12, "NORMAL");  <br />
+  Float price=po.order(vp1);  <br />
+  System.out.println(price);  <br />
+  Price=po.order(nvp1);  <br />
+  System.out.println(price);  <br />
+  Price=po.order(vp2);  <br />
+  System.out.println(price);  <br />
+  System.out.println(po.getTotalSales());  <br />
+}`
