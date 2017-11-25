@@ -1,16 +1,12 @@
 # Online-Pizza
 There’s an online pizza order store which accepts orders for Veg-Pizza and Non-veg Pizza each in different sizes and types.  
-
 Size of Pizza are: (6,9,12 inches);  
 Types of Pizza are: (PLAIN, DELUXE, SUPREME).  
-
 The cost of Pizza are as follows:  
-    For Veg-Pizza the base price is Rs.50 multiplied by the size of pizza for PLAIN type and extra charges are added for premium types.  
-(DELUXE Rs.100 extra charge and SUPREME Rs.150 extra charge)  
-    For NonVeg-Pizza the base price is Rs.100 multiplied by the size of pizza for PLAIN type and extra charges are added for premium types.  
-(DELUXE Rs.150 extra charge and SUPREME Rs.200 extra charge)  
-
-They also wanted to calculate total sales made. There are a total of 5 classes; one abstract class Pizza, Classes VegPizza and NonVegPizza, user defined exception class – InvalidPizzaException and Main class PizzaOnline.
+    For Veg-Pizza the base price is Rs.50 multiplied by the size of pizza for PLAIN type and extra charges are added for premium types(DELUXE Rs.100 extra charge and SUPREME Rs.150 extra charge).  
+    For NonVeg-Pizza the base price is Rs.100 multiplied by the size of pizza for PLAIN type and extra charges are added for premium types(DELUXE Rs.150 extra charge and SUPREME Rs.200 extra charge).  
+They also wanted to calculate total sales made.  
+There are a total of 5 classes: one abstract class Pizza, Classes VegPizza and NonVegPizza, user defined exception class – InvalidPizzaException and Main class PizzaOnline.
 
 The classes have following properties:  
 ## Pizza
