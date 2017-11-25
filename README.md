@@ -17,32 +17,32 @@ They also wanted to calculate total sales made. There are a total of 5 classes; 
 The classes have following properties:
 ## Pizza
 It is an abstract class and has following methods:
-* abstract float calculatePrice()
-* Public Boolean validate(int size, String type) – This method returns
+* `abstract float calculatePrice()`
+* `public boolean validate(int size, String type)` – This method returns
 true if the valid size and type are given else returns false.
 ## VegPizza
-This extends Pizza, and has private members size and type.(variables)
-* VegPizza(int size, String type) – this method validates the size and
+This extends Pizza, and has private members `size` and `type`.(variables)
+* `VegPizza(int size, String type)` – this constructor validates the size and
 type of pizza by using validate method from Pizza, if the result is
 false it then throws InvalidPizzaException.
 Else assigns the values to instance variables size and type.
-* Float calculatePrice() – Calculates the price of Pizza for the given
+* `float calculatePrice()` – Calculates the price of Pizza for the given
 size and type using the above prices.
 ## NonVegPizza
-This extends Pizza, and has private members size and type.(variables)
-* NonVegPizza(int size, String type) – this method validates the size
+This extends Pizza, and has private members `size` and `type`.(variables)
+* `NonVegPizza(int size, String type)` – this method validates the size
 and type of pizza by using validate method from Pizza, if the result
 is false it then throws InvalidPizzaException.
 Else assigns the values to instance variables size and type.
-* float calculatePrice() – Calculates the price of Pizza for the given size
+* `float calculatePrice()` – Calculates the price of Pizza for the given size
 and type using the above prices.
 
 ## PizzaOnline
 This is the class which contains main method, contains a private float
-variable totalSales.
+variable `totalSales`.
 Contains the following methods:
-* float order(Pizza pizza) – calculates price of pizza
-* float getTotalSales() – calculates the price of total sales made until now.
+* `float order(Pizza pizza)` – calculates price of pizza
+* `float getTotalSales()` – calculates the price of total sales made until now.
 ```java
 Public static void main(String args[]) throws InvalidPizzaException{  
     PizzaOnline po = new PizzaOnline();  
