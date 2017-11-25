@@ -18,7 +18,7 @@ The classes have following properties:
 ## Pizza
 It is an abstract class and has following methods:
 * abstract float calculatePrice()
-Public Boolean validate(int size, String type) – This method returns
+* Public Boolean validate(int size, String type) – This method returns
 true if the valid size and type are given else returns false.
 ## VegPizza
 This extends Pizza, and has private members size and type.(variables)
@@ -42,21 +42,20 @@ This is the class which contains main method, contains a private float
 variable totalSales.
 Contains the following methods:
 * float order(Pizza pizza) – calculates price of pizza
-* float getTotalSales() – calculates the price of total sales made until
-now.
+* float getTotalSales() – calculates the price of total sales made until now.
 
-Public static void main(String args[]) throws InvalidPizzaException{
-  PizzaOnline po = new PizzaOnline();
-  VegPizza vp1 = new VegPizza(9, "PLAIN");
-  NonVegPizza nvp1 = new NonVegPizza(12, "DELUXE");
-  VegPizza vp2 = new VegPizza(6,"SUPREME");
-  //to test exception
-  //VegPizza vp3 = new VegPizza(12, "NORMAL");
-  Float price=po.order(vp1);
-  System.out.println(price);
-  Price=po.order(nvp1);
-  System.out.println(price);
-  Price=po.order(vp2);
-  System.out.println(price);
-  System.out.println(po.getTotalSales());
-}
+Public static void main(String args[]) throws InvalidPizzaException{  
+  PizzaOnline po = new PizzaOnline();  
+  VegPizza vp1 = new VegPizza(9, "PLAIN");  
+  NonVegPizza nvp1 = new NonVegPizza(12, "DELUXE");  
+  VegPizza vp2 = new VegPizza(6,"SUPREME");  
+  //to test exception  
+  //VegPizza vp3 = new VegPizza(12, "NORMAL");  
+  Float price=po.order(vp1);  
+  System.out.println(price);  
+  Price=po.order(nvp1);  
+  System.out.println(price);  
+  Price=po.order(vp2);  
+  System.out.println(price);  
+  System.out.println(po.getTotalSales());  
+}  
