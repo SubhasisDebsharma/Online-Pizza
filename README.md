@@ -44,7 +44,7 @@ Contains the following methods:
 * float order(Pizza pizza) – calculates price of pizza
 * float getTotalSales() – calculates the price of total sales made until now.
 
-Public static void main(String args[]) throws InvalidPizzaException{  
+`Public static void main(String args[]) throws InvalidPizzaException{  
   PizzaOnline po = new PizzaOnline();  
   VegPizza vp1 = new VegPizza(9, "PLAIN");  
   NonVegPizza nvp1 = new NonVegPizza(12, "DELUXE");  
@@ -58,4 +58,4 @@ Public static void main(String args[]) throws InvalidPizzaException{
   Price=po.order(vp2);  
   System.out.println(price);  
   System.out.println(po.getTotalSales());  
-}  
+}`  
